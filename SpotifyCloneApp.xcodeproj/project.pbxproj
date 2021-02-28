@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		048DAF2125EB1E6200EBBF3D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DAF2025EB1E6200EBBF3D /* Extensions.swift */; };
 		04E7BD9E25EB01F20050345A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7BD9D25EB01F20050345A /* AppDelegate.swift */; };
 		04E7BDA225EB01F20050345A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7BDA125EB01F20050345A /* HomeViewController.swift */; };
 		04E7BDA725EB01F30050345A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E7BDA625EB01F30050345A /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		048DAF2025EB1E6200EBBF3D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		04E7BD9A25EB01F20050345A /* SpotifyCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E7BD9D25EB01F20050345A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E7BDA125EB01F20050345A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		048DAF1F25EB1E5200EBBF3D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				048DAF2025EB1E6200EBBF3D /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		04E7BD9125EB01F20050345A = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +158,7 @@
 			children = (
 				04E7BDA625EB01F30050345A /* Assets.xcassets */,
 				04E7BD9D25EB01F20050345A /* AppDelegate.swift */,
+				048DAF1F25EB1E5200EBBF3D /* Extensions */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -268,6 +279,7 @@
 				04E7BDF325EB148F0050345A /* Artist.swift in Sources */,
 				04E7BDED25EB147A0050345A /* Playlist.swift in Sources */,
 				04E7BDF625EB149E0050345A /* UserProfile.swift in Sources */,
+				048DAF2125EB1E6200EBBF3D /* Extensions.swift in Sources */,
 				04E7BDCB25EB11730050345A /* WelcomeViewController.swift in Sources */,
 				04E7BDCF25EB12500050345A /* SettingsViewController.swift in Sources */,
 				04E7BDDD25EB12F90050345A /* SearchResultViewController.swift in Sources */,
