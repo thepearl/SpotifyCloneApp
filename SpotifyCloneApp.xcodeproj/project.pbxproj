@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0409030E25EBF3E8008AF2F1 /* AuthReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409030D25EBF3E8008AF2F1 /* AuthReponse.swift */; };
 		048DAF2125EB1E6200EBBF3D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DAF2025EB1E6200EBBF3D /* Extensions.swift */; };
 		04E7BD9E25EB01F20050345A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7BD9D25EB01F20050345A /* AppDelegate.swift */; };
 		04E7BDA225EB01F20050345A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E7BDA125EB01F20050345A /* HomeViewController.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0409030D25EBF3E8008AF2F1 /* AuthReponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthReponse.swift; sourceTree = "<group>"; };
 		048DAF2025EB1E6200EBBF3D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		04E7BD9A25EB01F20050345A /* SpotifyCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E7BD9D25EB01F20050345A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				04E7BDEC25EB147A0050345A /* Playlist.swift */,
 				04E7BDEF25EB14840050345A /* AudioTrack.swift */,
 				04E7BDF225EB148F0050345A /* Artist.swift */,
+				0409030D25EBF3E8008AF2F1 /* AuthReponse.swift */,
 				04E7BDF525EB149E0050345A /* UserProfile.swift */,
 			);
 			path = Models;
@@ -272,6 +275,7 @@
 				04E7BDE025EB13CB0050345A /* AuthManager.swift in Sources */,
 				04E7BDBF25EB109A0050345A /* SearchViewController.swift in Sources */,
 				04E7BDF025EB14840050345A /* AudioTrack.swift in Sources */,
+				0409030E25EBF3E8008AF2F1 /* AuthReponse.swift in Sources */,
 				04E7BDC725EB116A0050345A /* AuthViewController.swift in Sources */,
 				04E7BD9E25EB01F20050345A /* AppDelegate.swift in Sources */,
 				04E7BDD425EB12660050345A /* ProfileViewController.swift in Sources */,
